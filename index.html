@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
+    <div class="container">
+        <header>
+          <h1>Map <span>&</span> Set</h1>
+          <p>Java Script Data Structures</p>
+        </header>
     
-
-
-    <script src="./main.js"></script>
+        <section>
+          <h2>Map</h2>
+          <p> <code>Map</code> Key va Value juftlarini saqlaydi, bu erda Keylar har qanday ma'lumot turi bo'lishi mumkin.</p>
+          <button onclick="runMapDemo()">Map Demo</button>
+          <pre id="mapOutput" class="output"></pre>
+        </section>
+    
+        <section>
+          <h2>Set</h2>
+          <p><code>Set</code> O'zida unikal ma'lumotlarni saqlaydi, bu erda dublikatlar avtomatik tarzda o'chirb tashlanadi</p>
+          <button onclick="runSetDemo()">Set Demo</button>
+          <pre id="setOutput" class="output"></pre>
+        </section>
+      </div>
+    <script src="./scripts/main.js"></script>
 </body>
+
 </html>
