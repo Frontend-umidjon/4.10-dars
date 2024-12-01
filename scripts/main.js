@@ -30,3 +30,14 @@ document.querySelector('button[onclick="runMapDemo()"]').addEventListener('click
     });
   });
   
+
+import { Student } from "./app.js";
+import { Group } from "./app.js";
+import { Kurs } from "./app.js";
+import { Organization } from "./app.js";
+import { Payment } from "./app.js";
+import { Room } from "./app.js";
+import { Salary } from "./app.js";
+import { Teacher } from "./app.js";
+
+
