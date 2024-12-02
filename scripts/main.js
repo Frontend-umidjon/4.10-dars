@@ -1,3 +1,9 @@
+
+import classes from './app.js';
+let { Student, Teacher, Organization, Kurs, Room, Payment, Salary, Group } = classes;
+
+
+
 document.querySelector('button[onclick="runMapDemo()"]').addEventListener('click', () => {
     const map = new Map();
     map.set('name', 'Alice');
@@ -30,14 +36,5 @@ document.querySelector('button[onclick="runMapDemo()"]').addEventListener('click
     });
   });
   
-
-import { Student } from "./app.js";
-import { Group } from "./app.js";
-import { Kurs } from "./app.js";
-import { Organization } from "./app.js";
-import { Payment } from "./app.js";
-import { Room } from "./app.js";
-import { Salary } from "./app.js";
-import { Teacher } from "./app.js";
 
 
